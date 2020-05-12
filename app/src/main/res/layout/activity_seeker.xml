@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seeker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request Blood"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/request"
+            android:onClick="request"
+            android:layout_marginTop="180dp"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/editseeker"
+            android:onClick="seekereditprofile"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/searchseeker"
+            android:onClick="seekersearch"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/seekerlogout"
+            android:layout_marginTop="50dp"
+            android:onClick="seekerlogout"
+            ></Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpMainWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/empeditprofile"
+            android:layout_marginTop="180dp"
+            android:onClick="empeditprofile"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Of Donor"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/listdonor"
+            android:onClick="listofdonor"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Of Seeker"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/listseeker"
+            android:onClick="listofseeker"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@drawable/button_style"
+            android:textColor="#fff"
+            android:id="@+id/emplogout"
+            android:onClick="emplogout"
+            android:layout_marginTop="50dp"
+            ></Button>
+
+
+    </LinearLayout>
+</RelativeLayout>

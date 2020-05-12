@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainWindow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="273dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donor"
+            android:textColor="#fff"
+            android:background="@drawable/button_style"
+            android:id="@+id/donorwindow"
+            android:onClick="jump1"
+            ></Button>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="42dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seeker"
+            android:textColor="#fff"
+            android:background="@drawable/button_style"
+            android:id="@+id/seekerwindow"
+            android:onClick="jump2"
+            ></Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
